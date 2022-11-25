@@ -7,7 +7,7 @@ public class operacao {
                 log.addnumeroConta(12345);
                 log.addnumeroConta(56788);
                 log.addnumeroConta(967545);
-                System.out.println(log.getNumeroConta(2));
+                System.out.println(log.getNumeroConta(0));
                
                 Log log2 = Log.getInstance();
                 System.out.println(log2.getNumeroConta(0));
@@ -15,6 +15,7 @@ public class operacao {
                 System.out.println(log2.hashCode());  
                 log2.setNumeroConta(0, 3344);
                 System.out.println(log2.getNumeroConta(0));
+                System.out.println(log.getNumeroConta(0));
 
         }
     }
